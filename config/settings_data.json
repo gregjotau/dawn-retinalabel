@@ -1,0 +1,117 @@
+{
+  "current": {
+    "colors_solid_button_labels": "#ffffff",
+    "colors_accent_1": "#119da4",
+    "colors_accent_2": "#ffaa91",
+    "colors_text": "#4e4e4e",
+    "colors_outline_button_labels": "#4e4e4e",
+    "colors_background_1": "#ffffff",
+    "colors_background_2": "#fafafa",
+    "type_header_font": "roboto_n4",
+    "type_body_font": "roboto_n4",
+    "page_width": 1400,
+    "spacing_sections": 8,
+    "sale_badge_color_scheme": "accent-2",
+    "social_facebook_link": "https:\/\/www.facebook.com\/fammesportswear",
+    "social_pinterest_link": "https:\/\/no.pinterest.com\/fammesportswear\/",
+    "social_instagram_link": "https:\/\/www.instagram.com\/famme\/",
+    "social_snapchat_link": "https:\/\/www.snapchat.com\/add\/fammesportswear",
+    "social_youtube_link": "https:\/\/www.youtube.com\/channel\/UC_Sf81gixIsLXiqrSFnkYPA",
+    "favicon": "shopify:\/\/shop_images\/Famme-favicon.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/famme-logo.png",
+    "checkout_logo_position": "left",
+    "checkout_heading_font": "Roboto",
+    "checkout_body_font": "Roboto",
+    "checkout_accent_color": "#4e4e4e",
+    "checkout_button_color": "#119da4",
+    "checkout_error_color": "#ec7a7a",
+    "sections": {
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "blocks": {
+          "announcement-bar-0": {
+            "type": "announcement",
+            "settings": {
+              "text": "Vipps & Klarna | Fri frakt og levering samme dag* | 100 dagers åpent kjøp",
+              "color_scheme": "inverse",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "announcement-bar-0"
+        ],
+        "settings": {
+        }
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "color_scheme": "background-1",
+          "logo": "shopify:\/\/shop_images\/famme-logo.png",
+          "logo_width": 120,
+          "logo_position": "middle-left",
+          "menu": "long-horizontal-menu",
+          "show_line_separator": true,
+          "enable_sticky_header": true,
+          "margin_bottom": 0
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "3b667cc8-80d2-4c77-85d0-d198aff09291": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Informasjon",
+              "menu": "footer"
+            }
+          },
+          "5a66bb68-925b-4a72-9b02-048703aea76a": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Produktinformasjon",
+              "menu": "product-development"
+            }
+          },
+          "3e063503-3f13-4266-942b-f40c646c2175": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Samarbeid",
+              "menu": "partnerships"
+            }
+          }
+        },
+        "block_order": [
+          "3b667cc8-80d2-4c77-85d0-d198aff09291",
+          "5a66bb68-925b-4a72-9b02-048703aea76a",
+          "3e063503-3f13-4266-942b-f40c646c2175"
+        ],
+        "settings": {
+          "color_scheme": "inverse",
+          "newsletter_enable": false,
+          "newsletter_heading": "Tilmeld dig vores nyhedsbrev!",
+          "show_social": true,
+          "enable_country_selector": true,
+          "enable_language_selector": true,
+          "payment_enable": true,
+          "margin_top": 0,
+          "padding_top": 36,
+          "padding_bottom": 36
+        }
+      }
+    },
+    "content_for_index": [
+
+    ],
+    "blocks": {
+      "733389323033596483": {
+        "type": "shopify:\/\/apps\/okendo-product-reviews-ugc\/blocks\/theme-settings\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+        "disabled": true,
+        "settings": {
+          "show_preview_data": false
+        }
+      }
+    }
+  }
+}
