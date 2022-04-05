@@ -51,6 +51,65 @@
         "show_text_below": false
       }
     },
+    "1649167238b1075422": {
+      "type": "multicolumn-usp",
+      "blocks": {
+        "16491672389113c3ad-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/UV-beskyttelse-icon.png",
+            "title": "UV400 beskyttelse",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "16491672389113c3ad-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TAC-polarisert-icon.png",
+            "title": "TAC Polarisert linse",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "16491672389113c3ad-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TR90-ramme-icon.png",
+            "title": "TR90 ramme",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16491672389113c3ad-0",
+        "16491672389113c3ad-1",
+        "16491672389113c3ad-2"
+      ],
+      "settings": {
+        "title": "Alle våre solbriller har",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_max": 100,
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "sizet": 21,
+        "size": 12,
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "rich_text": {
       "type": "rich-text",
       "blocks": {
@@ -156,67 +215,14 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "multicolumn": {
-      "type": "multicolumn",
-      "blocks": {
-        "column1": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column2": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column3": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column1",
-        "column2",
-        "column3"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "third",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "image_banner",
+    "1649167238b1075422",
     "rich_text",
     "featured_collection",
     "collage",
-    "video",
-    "multicolumn"
+    "video"
   ]
 }
