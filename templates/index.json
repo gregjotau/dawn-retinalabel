@@ -1,172 +1,84 @@
 {
   "sections": {
-    "1647875727c189611d": {
+    "image_banner": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/2for1-vortex-tights-banner-desktop1.jpg",
-        "image_m": "shopify:\/\/shop_images\/2for1-vortex-tights-banner-mobil.jpg",
-        "image_url": "shopify:\/\/collections\/must-haves",
+        "image": "shopify:\/\/shop_images\/Active-sunglasses-banner.jpg",
         "image_overlay_opacity": 0,
-        "image2_url": "",
         "image_height": "small",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
+        "adapt_height_first_image": true,
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "background-1",
         "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "stack_images_on_mobile": false,
+        "show_text_below": false
       }
     },
-    "1629993086223521d8": {
-      "type": "famme-spaced-button-links",
-      "settings": {
-        "menu": "header2-produktkategorier",
-        "pw": false,
-        "bg": "#4e4e4e",
-        "color": "#ffffff",
-        "width": 150,
-        "padx": 10,
-        "pady": 7,
-        "radius": 100
-      }
-    },
-    "1638543882705deea9": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/lagertomming-sko-banner-desktop.jpg",
-        "image_m": "shopify:\/\/shop_images\/lagertomming-sko-banner-mobile.jpg",
-        "image_url": "shopify:\/\/collections\/must-haves",
-        "image_overlay_opacity": 0,
-        "image2_url": "",
-        "image_height": "small",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "16311853465cfb015e": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/loungewear-salg-banner-desktop.jpg",
-        "image_m": "shopify:\/\/shop_images\/loungewear-salg-banner-mobil.jpg",
-        "image_url": "shopify:\/\/collections\/loungewear",
-        "image_overlay_opacity": 0,
-        "image2_url": "",
-        "image_height": "large",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "16467164645aa70328": {
-      "type": "multicolumn-usp",
-      "disabled": true,
+    "multicolumn": {
+      "type": "multicolumn",
       "blocks": {
-        "1646716464677e12fc-0": {
+        "column1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/blogpost-tips-til-bedre-kondis_1.jpg",
-            "title": "Gratis frakt*",
-            "text": "<p>1-3 dager med ekspressfrakt<\/p>",
+            "image": "shopify:\/\/shop_images\/UV-beskyttelse-icon.png",
+            "title": "UV400 beskyttelse",
+            "text": "",
             "link_label": "",
             "link": ""
           }
         },
-        "1646716464677e12fc-1": {
+        "column2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/blogpost-tips-til-bedre-kondis_1.jpg",
-            "title": "Vipps & Klarna",
-            "text": "<p>Kjøp nå og betal senere med Klarna<\/p>",
+            "image": "shopify:\/\/shop_images\/TAC-polarisert-icon.png",
+            "title": "TAC Polarisert linse",
+            "text": "",
             "link_label": "",
             "link": ""
           }
         },
-        "1646716464677e12fc-2": {
+        "column3": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/blogpost-tips-til-bedre-kondis_1.jpg",
-            "title": "Superenkel retur",
-            "text": "<p>Med 30 dagers pengene tilbake<\/p>",
+            "image": "shopify:\/\/shop_images\/TR90-ramme-icon.png",
+            "title": "TR90 Ramme",
+            "text": "",
             "link_label": "",
             "link": ""
           }
         }
       },
       "block_order": [
-        "1646716464677e12fc-0",
-        "1646716464677e12fc-1",
-        "1646716464677e12fc-2"
+        "column1",
+        "column2",
+        "column3"
       ],
       "settings": {
-        "title": "",
+        "title": "Alle våre sportsbriller har",
         "heading_size": "h2",
-        "image_width": "full",
-        "image_max": 108,
+        "image_width": "third",
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "column_alignment": "center",
-        "sizet": 12,
-        "size": 11,
-        "background_style": "none",
+        "background_style": "primary",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "inverse",
-        "columns_mobile": "3",
-        "swipe_on_mobile": false,
-        "padding_top": 28,
-        "padding_bottom": 0
-      }
-    },
-    "16463038447a5cbd60": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Lagersalg til 7. April - Vi flytter til nytt og større lager",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "must-haves",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
         "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
     },
-    "164138293938171117": {
+    "164914605683134699": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/new-products-banner.jpg",
-        "image_m": "shopify:\/\/shop_images\/new-products-banner-mobil.jpg",
-        "image_url": "shopify:\/\/collections\/new-releases",
+        "image": "shopify:\/\/shop_images\/Active-sunglasses-banner-2.jpg",
         "image_overlay_opacity": 0,
-        "image2_url": "",
-        "image_height": "large",
-        "adapt_height_first_image": false,
+        "image_height": "small",
+        "adapt_height_first_image": true,
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
@@ -176,237 +88,123 @@
         "show_text_below": true
       }
     },
-    "164612698482e306bb": {
-      "type": "image-banner",
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Våre bestselgere",
+        "heading_size": "h2",
+        "collection": "all",
+        "products_to_show": 8,
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 28,
+        "padding_bottom": 36
+      }
+    },
+    "1649148971f7599bce": {
+      "type": "multicolumn",
       "blocks": {
-        "1646126984b913e87a-0": {
-          "type": "heading",
-          "disabled": true,
+        "164914897150cbe42d-0": {
+          "type": "column",
           "settings": {
-            "heading": "Image banner",
-            "heading_size": "medium"
+            "image": "shopify:\/\/shop_images\/Active-sunglasses-review-1.jpg",
+            "title": "⭐️⭐️⭐️⭐️⭐️",
+            "text": "<p><strong>Julie<br\/><\/strong>Ble overrasket over hvor godt jeg likte disse solbrillene! Vanligvis kler jeg ikke slike type briller i det hele tatt, men synes disse funka. Liker at det følger med flere glass så man kan bytte om man vil. Alt i alt fornøyd, og god pris i forhold til mange andre merker😍<\/p>",
+            "link_label": "",
+            "link": ""
           }
         },
-        "1646126984b913e87a-1": {
-          "type": "text",
-          "disabled": true,
+        "164914897150cbe42d-1": {
+          "type": "column",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
+            "image": "shopify:\/\/shop_images\/Active-sunglasses-review-2.jpg",
+            "title": "⭐️⭐️⭐️⭐️⭐️",
+            "text": "<p><strong>Rebekka<br\/><\/strong>Har lenge lett etter løpebriller som er store nok for ansiktet mitt og ser fine ut. Disse er helt perfekte! I tillegg sitter de godt på ansiktet på løpeturen og hopper ikke opp og ned. Disse kommer til å bli brukt på løpeturer og i langrenssløypa fremover!<\/p>",
+            "link_label": "",
+            "link": ""
           }
         },
-        "1646126984b913e87a-2": {
-          "type": "buttons",
-          "disabled": true,
+        "164914897150cbe42d-2": {
+          "type": "column",
           "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "image": "shopify:\/\/shop_images\/Active-sunglasses-review-3.jpg",
+            "title": "⭐️⭐️⭐️⭐️⭐️",
+            "text": "<p><strong>Kaja<\/strong><br\/>Elsker disse solbrillene! Og elsker at man får flere glass man kan bytte ut, sitter veldig godt på!<\/p>",
+            "link_label": "",
+            "link": ""
           }
         }
       },
       "block_order": [
-        "1646126984b913e87a-0",
-        "1646126984b913e87a-1",
-        "1646126984b913e87a-2"
+        "164914897150cbe42d-0",
+        "164914897150cbe42d-1",
+        "164914897150cbe42d-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/acid-scrunch-tights-i-farger_e7f7b2f6-fc4a-4364-b1ad-61b1b4936c3d.jpg",
-        "image_m": "shopify:\/\/shop_images\/acid-scrunch-tights-i-farger_1.jpg",
-        "image_url": "shopify:\/\/products\/acid-scrunch-leggings",
-        "image_overlay_opacity": 0,
-        "image2_url": "",
-        "image_height": "large",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "1631094390263d97d1": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/peachy-scrunch-banner-desktop.jpg",
-        "image_m": "shopify:\/\/shop_images\/peachy-scrunch-banner-mobil.jpg",
-        "image_url": "shopify:\/\/collections\/scrunch",
-        "image_overlay_opacity": 0,
-        "image2_url": "",
-        "image_height": "large",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "1626547460af5b6361": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Bestselgere",
+        "title": "",
         "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "bestsellers",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
+        "image_width": "full",
         "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
     },
-    "163117812908a522c8": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/outdoor-banner-smal_1.jpg",
-        "image_m": "shopify:\/\/shop_images\/outdoor-banner-smal-mobil.jpg",
-        "image_url": "shopify:\/\/collections\/turklaer",
-        "image_overlay_opacity": 0,
-        "image2_url": "",
-        "image_height": "small",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "16252134879571dabc": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Jeans_banner_stor_1.jpg",
-        "image_m": "shopify:\/\/shop_images\/jeans-banner-mobil_3.jpg",
-        "image_url": "shopify:\/\/collections\/jeans",
-        "image_overlay_opacity": 0,
-        "image2_url": "",
-        "image_height": "large",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "1629157352b193f90f": {
+    "164915618605b7ee43": {
       "type": "newsletter",
       "blocks": {
-        "1629157352b193f90f-0": {
+        "16491561864a9eeb0c-0": {
           "type": "heading",
           "settings": {
-            "heading": "Neste lansering?",
+            "heading": "Meld deg på vårt nyhetsbrev",
             "heading_size": "h1"
           }
         },
-        "1629157352b193f90f-1": {
+        "16491561864a9eeb0c-1": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Bli den første som får vite om nyheter og tilbud<\/p>"
+            "text": "<p>Vær den første som får vite om nye produkter og tilbud.<\/p>"
           }
         },
-        "1629157352b193f90f-2": {
+        "16491561864a9eeb0c-2": {
           "type": "email_form",
           "settings": {
           }
         }
       },
       "block_order": [
-        "1629157352b193f90f-0",
-        "1629157352b193f90f-1",
-        "1629157352b193f90f-2"
+        "16491561864a9eeb0c-0",
+        "16491561864a9eeb0c-1",
+        "16491561864a9eeb0c-2"
       ],
       "settings": {
         "color_scheme": "background-1",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "162567415706bdadcd": {
-      "type": "image-banner",
-      "blocks": {
-        "162567415706bdadcd-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "BLI MED I NORGES STØRSTE PRODUKTUTVIKLINGSGRUPPE MED FLERE TITUSENER MEDLEMMER I NORGE.",
-            "text_style": "body"
-          }
-        },
-        "162567415706bdadcd-2": {
-          "type": "buttons",
-          "disabled": true,
-          "settings": {
-            "button_label_1": "FÅ HJELP OG GI FEEDBACK",
-            "button_link_1": "https:\/\/www.facebook.com\/groups\/fammeproduktutvikling",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "162567415706bdadcd-1",
-        "162567415706bdadcd-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Banner-hovedside.jpg",
-        "image_url": "https:\/\/www.facebook.com\/groups\/fammeproduktutvikling",
-        "image_overlay_opacity": 0,
-        "image2_url": "",
-        "image_height": "medium",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "padding_top": 16,
+        "padding_bottom": 24
       }
     }
   },
   "order": [
-    "1647875727c189611d",
-    "1629993086223521d8",
-    "1638543882705deea9",
-    "16311853465cfb015e",
-    "16467164645aa70328",
-    "16463038447a5cbd60",
-    "164138293938171117",
-    "164612698482e306bb",
-    "1631094390263d97d1",
-    "1626547460af5b6361",
-    "163117812908a522c8",
-    "16252134879571dabc",
-    "1629157352b193f90f",
-    "162567415706bdadcd"
+    "image_banner",
+    "multicolumn",
+    "164914605683134699",
+    "featured_collection",
+    "1649148971f7599bce",
+    "164915618605b7ee43"
   ]
 }
