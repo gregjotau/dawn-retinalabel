@@ -1,0 +1,195 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "caption": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "collapsible-row-0": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Materials",
+            "icon": "leather",
+            "content": "",
+            "page": ""
+          }
+        },
+        "collapsible-row-1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Shipping & Returns",
+            "icon": "truck",
+            "content": "",
+            "page": ""
+          }
+        },
+        "collapsible-row-2": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Dimensions",
+            "icon": "ruler",
+            "content": "",
+            "page": ""
+          }
+        },
+        "collapsible-row-3": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Care Instructions",
+            "icon": "heart",
+            "content": "",
+            "page": ""
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "caption",
+        "price",
+        "variant_picker",
+        "buy_buttons",
+        "description",
+        "collapsible-row-0",
+        "collapsible-row-1",
+        "collapsible-row-2",
+        "collapsible-row-3",
+        "share"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "gallery_layout": "thumbnail_slider",
+        "media_size": "large",
+        "mobile_thumbnails": "hide",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "16491497359a37be2f": {
+      "type": "multicolumn",
+      "blocks": {
+        "16491497354b3d987e-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Jawbreaker-sunglasses-review-1.jpg",
+            "title": "⭐️⭐️⭐️⭐️⭐️",
+            "text": "<p><strong>Anniken<br\/><\/strong>Disse likte jeg veldig godt! Sitter bra og føles lette på nesa.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "16491497354b3d987e-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Jawbreaker-sunglasses-review-2.jpg",
+            "title": "⭐️⭐️⭐️⭐️⭐️",
+            "text": "<p><strong>Linn<br\/><\/strong>Gir godt lys og speiler ikke trynet på innsiden. Jeg er var på tyngde over nesa, men disse var lette og gode. Sklir ikke ned. Mye briller for pengene, anbefaler de absolutt 😄<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "16491497354b3d987e-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Jawbreaker-sunglasses-review-3.jpg",
+            "title": "⭐️⭐️⭐️⭐️⭐️",
+            "text": "<p><strong>Hilde<br\/><\/strong>Love theese glasses! Stays put in every activity. Comes with three different glasses to change. Some of the best activity glasses I have had<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16491497354b3d987e-0",
+        "16491497354b3d987e-1",
+        "16491497354b3d987e-2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "Kanskje du liker noe av dette..",
+        "heading_size": "h2",
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16491497359a37be2f",
+    "product-recommendations"
+  ]
+}
