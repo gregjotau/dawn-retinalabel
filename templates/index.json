@@ -204,10 +204,11 @@
         "1649226615e71ccc45-1": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "image": "shopify:\/\/shop_images\/Jawbreaker-sunglasses-review-2.jpg",
+            "title": "⭐️ ⭐️ ⭐️ ⭐️ ⭐️",
+            "text": "<p><strong>Linn<br\/><\/strong>Gir godt lys og speiler ikke trynet på innsiden. Jeg er var på tyngde over nesa, men disse var lette og gode. Sklir ikke ned. Mye briller for pengene, anbefaler de absolutt 😄<\/p>",
+            "link_label": "Shop Jawbreaker Sunglasses",
+            "link": "shopify:\/\/products\/jawbreaker-sunglasses"
           }
         },
         "1649226615e71ccc45-2": {
