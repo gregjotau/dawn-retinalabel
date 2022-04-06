@@ -94,83 +94,24 @@
         "title": "Alle våre solbriller har",
         "heading_size": "h2",
         "image_width": "half",
-        "image_max": 100,
+        "image_max": 72,
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "column_alignment": "center",
-        "sizet": 21,
-        "size": 12,
+        "sizet": 16,
+        "size": 10,
         "background_style": "none",
         "button_label": "",
         "button_link": "",
         "color_scheme": "background-2",
-        "columns_mobile": "1",
+        "columns_mobile": "3",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "featured_collection": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Våre bestselgere",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 3,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 28,
-        "padding_bottom": 36
+        "padding_top": 20,
+        "padding_bottom": 20
       }
     },
     "16492261969b346373": {
       "type": "image-banner",
-      "blocks": {
-        "1649226195aa0baee2-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1"
-          }
-        },
-        "1649226195aa0baee2-1": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "1649226195aa0baee2-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "1649226195aa0baee2-0",
-        "1649226195aa0baee2-1",
-        "1649226195aa0baee2-2"
-      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Active-sunglasses-banner-2.jpg",
         "image_m": "shopify:\/\/shop_images\/Active-sunglasses-banner-mobil-2.jpg",
@@ -246,13 +187,75 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Våre bestselgere",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 8,
+        "columns_desktop": 3,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 28,
+        "padding_bottom": 36
+      }
+    },
+    "16492266202aa39246": {
+      "type": "newsletter",
+      "blocks": {
+        "16492266205ea0f209-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "REGISTRER DEG FOR NYHETSBREV",
+            "heading_size": "h1"
+          }
+        },
+        "16492266205ea0f209-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Bli den første som får vite om nyheter og tilbud<\/p>"
+          }
+        },
+        "16492266205ea0f209-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "16492266205ea0f209-0",
+        "16492266205ea0f209-1",
+        "16492266205ea0f209-2"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "image_banner",
     "1649167238b1075422",
-    "featured_collection",
     "16492261969b346373",
-    "16492266158ff425b2"
+    "16492266158ff425b2",
+    "featured_collection",
+    "16492266202aa39246"
   ]
 }
