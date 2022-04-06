@@ -214,8 +214,9 @@
         "1649226615e71ccc45-2": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/Fusion-sunglasses-review-1.jpg",
+            "title": "⭐️ ⭐️ ⭐️ ⭐️ ⭐️",
+            "text": "<p><strong>Martine<\/strong><br\/>Disse sitter så bra på! Elsker at man kan justere «neseryggen» slik at de sitter perfekt☺️<\/p>",
             "link_label": "",
             "link": ""
           }
