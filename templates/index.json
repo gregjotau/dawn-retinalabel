@@ -204,9 +204,9 @@
         "1649226615e71ccc45-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Jawbreaker-sunglasses-review-2.jpg",
+            "image": "shopify:\/\/shop_images\/Jawbreaker-sunglasses-review-1.jpg",
             "title": "⭐️ ⭐️ ⭐️ ⭐️ ⭐️",
-            "text": "<p><strong>Linn<br\/><\/strong>Gir godt lys og speiler ikke trynet på innsiden. Jeg er var på tyngde over nesa, men disse var lette og gode. Sklir ikke ned. Mye briller for pengene, anbefaler de absolutt 😄<\/p>",
+            "text": "<p><strong>Anniken<br\/><\/strong>Disse likte jeg veldig godt! Sitter bra og føles lette på nesa.<\/p>",
             "link_label": "Kjøp Jawbreaker solbriller",
             "link": "shopify:\/\/products\/jawbreaker-sunglasses"
           }
@@ -230,13 +230,13 @@
       "settings": {
         "title": "",
         "heading_size": "h1",
-        "image_width": "full",
-        "image_max": 100,
+        "image_width": "half",
+        "image_max": 176,
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "column_alignment": "center",
         "sizet": 15,
-        "size": 12,
+        "size": 15,
         "background_style": "none",
         "button_label": "",
         "button_link": "",
