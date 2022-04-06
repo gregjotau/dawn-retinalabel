@@ -187,12 +187,70 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "16492266158ff425b2": {
+      "type": "multicolumn-usp",
+      "blocks": {
+        "1649226615e71ccc45-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Active-sunglasses-review-1.jpg",
+            "title": "⭐️ ⭐️ ⭐️  ⭐️ ⭐️",
+            "text": "<p><strong>Julie<br\/><\/strong>Ble overrasket over hvor godt jeg likte disse solbrillene! Vanligvis kler jeg ikke slike type briller i det hele tatt, men synes disse funka. Liker at det følger med flere glass så man kan bytte om man vil. Alt i alt fornøyd, og god pris i forhold til mange andre merker😍<\/p>",
+            "link_label": "Shop Active Sunglasses",
+            "link": "shopify:\/\/products\/active-sunglasses"
+          }
+        },
+        "1649226615e71ccc45-1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1649226615e71ccc45-2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1649226615e71ccc45-0",
+        "1649226615e71ccc45-1",
+        "1649226615e71ccc45-2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_max": 100,
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "sizet": 15,
+        "size": 12,
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "inverse",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "image_banner",
     "1649167238b1075422",
     "featured_collection",
-    "16492261969b346373"
+    "16492261969b346373",
+    "16492266158ff425b2"
   ]
 }
