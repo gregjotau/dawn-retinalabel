@@ -755,6 +755,7 @@ class VariantSelects extends HTMLElement {
     this.toggleAddButton(true, '', false);
     this.updatePickupAvailability();
     this.removeErrorMessage();
+
     if (!this.currentVariant) {
       this.toggleAddButton(true, '', true);
       this.setUnavailable();
@@ -764,15 +765,6 @@ class VariantSelects extends HTMLElement {
       this.updateVariantInput();
       this.renderProductInfo();
       this.updateShareUrl();
-    }
-    if (document.querySelector('p.rd') && document.querySelector('p.rdt') && document.querySelector('li#id'+ document.querySelector('input[name="id"]').value)){
-      if (document.querySelector('li#id'+ document.querySelector('input[name="id"]').value).innerHTML == 'continue' && document.querySelector('li#id'+ document.querySelector('input[name="id"]').value).getAttribute('qty') < 1){
-        document.querySelector('p.rd').classList.remove('hidden');
-        document.querySelector('p.rdt').classList.remove('hidden');
-      } else {
-        document.querySelector('p.rd').classList.add('hidden');
-        document.querySelector('p.rdt').classList.add('hidden');
-      }
     }
   }
 
@@ -848,12 +840,7 @@ class VariantSelects extends HTMLElement {
         const html = new DOMParser().parseFromString(responseText, 'text/html')
         const destination = document.getElementById(`price-${this.dataset.section}`);
         const source = html.getElementById(`price-${this.dataset.originalSection ? this.dataset.originalSection : this.dataset.section}`);
-
-        // Custom: Part of the sold out UI: https://github.com/Shopify/dawn/pull/105
-        const variantPickerDestination = document.querySelector('[data-variant-picker]')
-        const variantPickerSource = html.querySelector('[data-variant-picker]');
         if (source && destination) destination.innerHTML = source.innerHTML;
-        if (variantPickerSource && variantPickerDestination) variantPickerDestination.innerHTML = variantPickerSource.innerHTML;
 
         const price = document.getElementById(`price-${this.dataset.section}`);
 
