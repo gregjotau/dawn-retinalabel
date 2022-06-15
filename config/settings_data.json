@@ -127,7 +127,9 @@
           "menu_type_desktop": "dropdown",
           "show_line_separator": true,
           "enable_sticky_header": true,
-          "margin_bottom": 0
+          "margin_bottom": 0,
+          "padding_top": 20,
+          "padding_bottom": 20
         }
       },
       "footer": {
@@ -146,11 +148,19 @@
               "heading": "Samarbeid",
               "menu": "footer-samarbeid"
             }
+          },
+          "c5e26d9e-240c-479a-91c4-45bee4dd2852": {
+            "type": "text",
+            "settings": {
+              "heading": "Firma info",
+              "subtext": "<p>Respiro AS<br\/>Almeveien 28<br\/>0855 Oslo<br\/><a href=\"tel:+4747958629\" target=\"_blank\">+47 47958629<\/a><\/p><p><a href=\"mailto:gt@famme.no\" target=\"_blank\">gt@famme.no<\/a><\/p>"
+            }
           }
         },
         "block_order": [
           "footer-0",
-          "footer-1"
+          "footer-1",
+          "c5e26d9e-240c-479a-91c4-45bee4dd2852"
         ],
         "settings": {
           "color_scheme": "accent-2",
